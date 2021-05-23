@@ -1,0 +1,20 @@
+.fontstyle{
+  font-family: 'Dancing Script', cursive;;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: #005792;
+  animation-name: gamename;
+  animation-duration: 5s;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+
+}
+
+
+@keyframes gamename{
+  from{font-size :3.5rem;}
+  to{font-size: 3.0;}
+}
