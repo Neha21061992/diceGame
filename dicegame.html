@@ -17,29 +17,26 @@
 
    </script>
 </head>
-  <body class="container text-center"  onload="diceGame();">
+  <body class="container text-center"  onload="">
     <h1 class="fontstyle">DICE GAME</h1>
     <div class="row" style="margin-top:8%;">
       <div class="col-lg-6 col-md-6 sol-sm-2 " >
         <h3 class="text-danger">Player 1</h3>
-        <img src="" alt="" id ="space1">
+        <img src="dice6.png" alt="" id ="space1">
       </div>
       <div class="col-lg-6 col-md-6 sol-sm-2" >
         <h3 class="text-danger">Player 2</h3>
-        <img src="" alt="" id = "space2">
+        <img src="dice6.png" alt="" id = "space2">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 sol-sm-2" >
-
-      </div>
-      <div class="col-lg-6 col-md-6 sol-sm-2" >
-
+      <div class="col">
+      <button class="btn btn-lg-light text-white bg-dark" type="button" onclick="diceGame();" name="button">"Play...Click Me"</button>
       </div>
     </div>
     <div class="container" >
-      <h2 class="text-danger"id ="winnerMessage">HI</h2>
+      <h1 class="text-danger"id ="winnerMessage"></h1>
     </div>
     <script src="dicegame.js" charset="utf-8"></script>
 

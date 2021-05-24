@@ -8,11 +8,16 @@
 }
 
 img{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 
 }
 
+.btn-lg-light{
+  height: 40px;
+  weight: 400px;
+  font-weight: bold;
+}
 
 @keyframes gamename{
   from{font-size :3.5rem;}
